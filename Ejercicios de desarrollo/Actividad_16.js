@@ -1,30 +1,4 @@
 
-/*
-$('input[name="firstname"]:eq(0)').val("Nicole");
-
-
-$('select[name="fav_day"]:eq(0)').val("Monday");
-$("label").text("Tu nombre:");
-
-var fav_day = $('select[name="fav_day"]');
-
-$('input[name="sex"]').last().prop("checked", true)
-
-
-$("form:eq(0)").prop("name", "personal_info");
-
-$("form:eq(1)").prop("name", "job_info");
-
-$("form:eq(0)").prepend("<h1>Entrevista personal</h1>");
-$("form:eq(1)").prepend("<h1>Entrevista de trabajo</h1>");
-$('input[name="sex"]:eq(0)').before("<h1>Seleccione genero</h1>");
-
-$('input[name="lastname"]').after("<br>Email: <br><input name='email' type='email'>");
-
-
-$('form').addClass("form")}
-
-
 /* 1- Crear un input donde el usuario escribirá un color en inglés y un botón. El usuario
 al presionar el botón se debe cambiar el color de la página al color especificado.*/
 

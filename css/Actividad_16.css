@@ -1,0 +1,44 @@
+*{
+  			font-family: 'Arima Madurai', cursive;
+  			text-align: center;
+  		}
+  		body{
+  			font-size: 5vh;
+  			font-weight: 700;
+  		}
+  		input{
+  			width: 100%;
+  			font-size: 4vh;
+  		}
+  		input[type="button"]{
+  			width: 20vh;
+  			font-size: 3vh;
+  			font-weight: 700;
+  		}
+  		p{
+  			font-size: 3.5vh;
+  			font-weight: 400;
+  			margin: 0;
+  		}
+  		#formularios{
+  			width: 30%;
+  			margin: 0 auto;
+  		}
+  		h3{
+  			font-size: 3.5vh;
+  			font-weight: 700;
+  			margin: 0;
+  		}
+  		h2{
+  			margin:0;
+  			font-size: 5vh;
+  		}
+  		#galeria{
+  			width: 100%;
+  		}
+  		.lb-data .lb-caption{
+  			font-size: 3vh;
+  		}
+  		.lb-number{
+  			text-align: left;
+  		}

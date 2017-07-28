@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio2</title>
+	<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/Actividad_16.css">
+	<script
+  	src="https://code.jquery.com/jquery-3.2.1.min.js"
+  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  	crossorigin="anonymous"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Arima+Madurai:400,700" rel="stylesheet">
+
+</head>
+<body>
+	<div id="formularios">
+		<form>
+			Escribe un color en inglés:
+			<br>
+			<input type="text" id="textColor" value=" ">
+			<br>
+			<input type="button" value="Cambiar" id="BotonCambio" >
+			<br>
+		</form>
+			<br>
+		<form>
+			Calcula tu IMC:
+			<br>
+			<p>Ingresa tu peso en kilos:</p>
+			<input type="text" id="peso" value=" ">
+			<p>Ingresa tu altura en metros:</p>
+			<input type="text" id="altura" value=" ">
+			<br>
+			<input type="button" value="Calcular" id="calcularIMC" >
+			<br>
+			<p id="subt"></p>
+			<h2 id="imc"></h2>
+			<h3 id="resultado"></h3>
+		</form>
+			<br>
+		<form>
+			Tu valor más el IVA:
+			<br>
+			<p>Ingresa una cantidad (sin puntos):</p>
+			<input type="text" id="cantidad" value=" ">
+			<br>
+			<input type="button" value="Calcular" id="calcularIVA" >
+			<br>
+			<p>Más el IVA es :</p>
+			<input type="text" id="masIva" value=" ">
+		</form>
+			<br>
+		<form>
+			Tu nombre y apellido:
+			<br>
+			<p>Ingresa tu nombre:</p>
+			<input type="text" id="nombre" value=" ">
+			<p>Ingresa tu apellido:</p>
+			<input type="text" id="apellido" value=" ">
+			<br>
+			<input type="button" value="Unir" id="unir" >
+			<br>
+			<input type="text" id="final" value=" ">
+		</form>
+			<br>
+		<form>
+			Tu nombre y apellido:
+			<br>
+			<p>Ingresa tu nombre:</p>
+			<input type="text" id="nombre2" value=" ">
+			<p>Ingresa tu apellido:</p>
+			<input type="text" id="apellido2" value=" ">
+			<p>Nombre Completo</p>
+			<input type="text" id="final2" value=" ">
+		</form>
+	</div>
+	<br>
+	<br>
+	<div id="galeria">
+	<h2>Galeria de imagenes</h2>
+	<br>
+	<a href="images/1.jpg" data-lightbox="image-1" data-title="Via de tren abandonada"><img src="images/1s.jpg"></a>
+	<a href="images/2.jpg" data-lightbox="image-1" data-title="Montaña nevada"><img src="images/2s.jpg"></a>
+	<a href="images/3.jpg" data-lightbox="image-1" data-title="Flores con gotas de rocío"><img src="images/3s.jpg"></a>
+	</div>
+	<script type="text/javascript" src="galeria/lightbox-plus-jquery.min.js"></script>
+	<script type="text/javascript" src="Actividad_16.js"></script>
+
+</body>
+</html>

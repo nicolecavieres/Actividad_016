@@ -1,0 +1,53 @@
+*{
+  			font-family: 'Arima Madurai', cursive;
+  			text-align: center;
+  		}
+  		body{
+  			font-size: 3.5vh;
+  			font-weight: 400;
+  		}
+  		
+  		p{
+  			font-size: 3vh;
+  			font-weight: 400;
+  			margin: 0;
+  		}
+   		h2{
+  			margin:0;
+  			font-size: 5vh;
+  		}
+      h3{
+        margin:0;
+        font-size: 3.5vh;
+        font-weight: 700;
+      }
+      input[type="button"]{
+        width: 20vh;
+        font-size: 2.5vh;
+        font-weight: 700;
+        margin-bottom: 7vh;
+      }
+  		.mitad{
+  			width: 50%;
+        margin:0;
+        height: auto;
+        float: left;
+  		}
+      .galeria img{
+       border:solid silver 1px;
+      }
+
+      .galeria{
+        box-sizing: border-box;
+        border-right: solid silver 2px;
+      }
+      .eleccion{
+       text-align: left;
+       padding: 6vh;
+       box-sizing: border-box;
+     }
+
+      .contenedor{
+        width: 900px;
+        margin:0 auto;
+      }

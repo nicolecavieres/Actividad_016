@@ -1,0 +1,31 @@
+*{
+  			font-family: 'Arima Madurai', cursive;
+  			text-align: center;
+  		}
+  		body{
+  			font-size: 5vh;
+  			font-weight: 700;
+  		}
+  		
+  		p{
+  			font-size: 3.5vh;
+  			font-weight: 400;
+  			margin: 0;
+  		}
+   		h2{
+  			margin:0;
+  			font-size: 5vh;
+  		}
+  		#galeria{
+  			width: 50%;
+  		}
+  		.lb-data .lb-caption{
+  			font-size: 3vh;
+  		}
+  		.lb-number{
+  			text-align: left;
+  		}
+      .contenedor{
+        width: 80%;
+        margin:0 auto;
+      }
